@@ -1,0 +1,12 @@
+.slidebox {
+    width: 370px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slidebox .slide {
+    top: 0;
+    width: 100%;
+    position: absolute;
+}
