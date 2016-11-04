@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<header>
+  <div class="container">
+    <h1><a class="link-to-index" href="{{ "/" | absolute_url }}">./</a>{{page.title}}</h1>
+    <time datetime="{{ page.date | date : "%Y-%m-%d" }}">{{ page.date | date_to_long_string }}</time>
+    {% if page.updated %}
+    <time datetime="{{ page.updated | date : "%Y-%m-%d" }}">, updated on {{ page.updated | date_to_long_string }}</time>
+    {% endif %}
+  </div>
+</header>
+
+<div class="container">
+  <section id="main_content">
+    {{content}}
+  </section>
+</div>

@@ -12,7 +12,7 @@ body {
 
 .container {
   width: 90%;
-  max-width: 600px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -57,9 +57,10 @@ header h1 {
   -webkit-font-smoothing: antialiased;
 }
 
-header h1:before {
-  content: "./ ";
+.link-to-index {
   font-size: 24px;
+  text-decoration: none;
+  margin-right: 0.5em;
 }
 
 header h2 {
@@ -122,6 +123,22 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   color: #999;
   margin: 0 0 5px 0;
+}
+
+.archive-title {
+  text-transform: uppercase;
+}
+
+#archive time {
+  margin-right: 2em;
+}
+
+#archive ul li:not(:last-child) {
+  margin-bottom: 3px;
+}
+
+#archive ul li:before {
+  display: none;
 }
 
 dt {
