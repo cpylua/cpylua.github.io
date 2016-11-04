@@ -141,6 +141,13 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
 }
 
+.footer {
+  font-style: italic;
+  color: #444;
+  text-align: center;
+  font-size: 12px;
+}
+
 dt {
   font-style: italic;
   font-weight: bold;
